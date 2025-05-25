@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Android Crack Database</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+    }
+
+    header {
+      padding: 20px;
+      background-color: #1e1e1e;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .search-container {
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    .search-container input {
+      padding: 10px;
+      width: 80%;
+      max-width: 500px;
+      font-size: 1em;
+      border: none;
+      border-radius: 8px;
+    }
+
+    .app-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .app-card {
+      background-color: #2a2a2a;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .app-card h3 {
+      margin-top: 0;
+    }
+
+    .app-card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #03dac6;
+      text-decoration: none;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #aaa;
+      background-color: #1e1e1e;
+    }
+
+    footer a {
+      color: #03dac6;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Android Crack Database</h1>
+    <p>Find your favorite modded APKs and tools 🔥</p>
+  </header>
+
+  <div class="search-container">
+    <input type="text" id="search" placeholder="Search apps (e.g. Spotify, Lucky Patcher)...">
+  </div>
+
+  <div class="app-grid" id="appGrid">
+    <!-- Example App Card -->
+    <div class="app-card">
+      <h3>Spotify Premium Mod</h3>
+      <p>Version: 8.9.0</p>
+      <a href="https://your-download-link.com">Download APK</a>
+    </div>
+    <div class="app-card">
+      <h3>Lucky Patcher</h3>
+      <p>Tool for modifying apps and games</p>
+      <a href="https://your-download-link.com">Download APK</a>
+    </div>
+    <!-- Add more cards here -->
+  </div>
+
+  <footer>
+    <p>Made with ❤️ by SSMG4 | <a href="https://github.com/SSMG4">GitHub</a></p>
+  </footer>
+
+  <script>
+    // Basic search functionality
+    const searchInput = document.getElementById('search');
+    const appGrid = document.getElementById('appGrid');
+
+    searchInput.addEventListener('input', () => {
+      const term = searchInput.value.toLowerCase();
+      const cards = appGrid.getElementsByClassName('app-card');
+      for (let card of cards) {
+        const text = card.textContent.toLowerCase();
+        card.style.display = text.includes(term) ? 'block' : 'none';
+      }
+    });
+  </script>
+</body>
+</html>
