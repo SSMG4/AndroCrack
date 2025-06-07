@@ -1,2 +1,2 @@
 # Android-Crack-Database
-Android Cracks Database
+Android Database to find app and game cracks
