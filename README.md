@@ -13,9 +13,7 @@
 
 ### ⚠️ Disclaimer
 
-> **This project is for educational and archival purposes only.**  
-> We do **not** condone piracy. The database is meant for research, modding reference, abandoned/freeware archiving, and ethical hacking practice.  
-> Always respect devs and licenses — if you like something, support it 💖
+> Even if this is a crack database, always respect devs and licenses — if you like something, support it 💖
 
 ---
 
