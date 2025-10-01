@@ -7,7 +7,7 @@
 ![Issues & Submissions](https://img.shields.io/github/issues/SSMG4/Android-Crack-Database)
 ![GitHub Pages](https://img.shields.io/badge/Live%20Site-Online-blue?logo=github)
 
-🌐 **Live Site:** at [**My Domain**](https://ssmg4.github.io/Android-Crack-Database)!
+🌐 **Live Site:** at [**My Domain**](https://ssmg4.github.io/AndroCrack)!
 
 ---
 
